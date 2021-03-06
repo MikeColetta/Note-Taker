@@ -9,6 +9,8 @@ app.use(express.json());
 
 //code goes here
 
+require('./routes/htmlRoutes')(app);
+
 app.listen(PORT, () => {
     console.log(`Server is listening on PORT: ${PORT}`);
 });
