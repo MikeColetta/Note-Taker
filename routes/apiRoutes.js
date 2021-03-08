@@ -1,0 +1,1 @@
+const storedNotes = require('../db/db.json')
