@@ -11,8 +11,8 @@ app.use(express.json());
 app.use(express.static('public'));
 
 //Grabs our Routes from the routes folder
-require('./routes/htmlRoutes')(app);
 require('./routes/apiRoutes')(app);
+require('./routes/htmlRoutes')(app);
 
 app.listen(PORT, () => {
     console.log(`Server is listening on PORT: ${PORT}`);
