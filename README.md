@@ -15,7 +15,7 @@ I created a node.js application that uses Express to create, read, and delete no
     
 ## Installation
     
-Go to this [deployed link](http://mike-coletta-note-taker.herokuapp.com/) to view and use the application.
+Go to this [deployed link](https://mike-coletta-note-taker.herokuapp.com/) to view and use the application.
     
 ## Usage
 
